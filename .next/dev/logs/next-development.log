@@ -1,0 +1,15 @@
+[00:00:01.467] Server  LOG     ✓ Ready in 1138ms
+[00:00:01.485] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/#culture. Falling back to browser navigation. {}
+[00:00:04.587] Server  LOG     ○ Compiling / ...
+[00:00:11.424] Browser WARN    Image with src "https://images.unsplash.com/photo-1608114759160-ad0b1bac35b2?q=80&w=1000&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:11.804] Browser WARN    Image with src "https://images.unsplash.com/photo-1759217801409-f95619d6c1e2?q=80&w=1000&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:18.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.600] Browser WARN    Image with src "https://images.unsplash.com/photo-1583775363006-3804e2131a2d?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.600] Browser WARN    Image with src "https://images.unsplash.com/photo-1586900942326-e2e8f7b7b793?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.600] Browser WARN    Image with src "https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.955] Browser WARN    Image with src "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:23.175] Browser WARN    Image with src "https://images.unsplash.com/photo-1719169395513-c48ad5d43cb0?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:24.366] Browser WARN    Image with src "https://images.unsplash.com/photo-1608114759160-ad0b1bac35b2?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:24.366] Browser WARN    Image with src "https://images.unsplash.com/photo-1759217801409-f95619d6c1e2?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
