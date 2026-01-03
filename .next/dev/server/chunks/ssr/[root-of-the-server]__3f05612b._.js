@@ -72,7 +72,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$m
 ;
 ;
 const metadata = {
-    title: "NEO-BENIN | Tourism 2077",
+    title: "BENIN-TRAVEL | Tourism 2077",
     description: "Explore the future of Benin's heritage."
 };
 function RootLayout({ children }) {

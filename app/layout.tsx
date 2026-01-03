@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "NEO-BENIN | Tourism 2077",
+  title: "BENIN-TRAVEL | Tourism 2077",
   description: "Explore the future of Benin's heritage.",
 };
 

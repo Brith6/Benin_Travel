@@ -62,7 +62,7 @@ const Footer = () => {
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} NEO-BENIN. All rights reserved.
+            &copy; {new Date().getFullYear()} BENIN-TRAVEL. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm font-mono">
             Designed for the Future of Benin

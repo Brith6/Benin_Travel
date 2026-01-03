@@ -13,3 +13,6 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:00:23.175] Browser WARN    Image with src "https://images.unsplash.com/photo-1719169395513-c48ad5d43cb0?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:24.366] Browser WARN    Image with src "https://images.unsplash.com/photo-1608114759160-ad0b1bac35b2?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:24.366] Browser WARN    Image with src "https://images.unsplash.com/photo-1759217801409-f95619d6c1e2?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:32:13.070] Server  LOG     ✓ Compiled in 89ms
+[00:32:33.088] Server  LOG     ✓ Compiled in 75ms
+[00:32:35.192] Server  LOG     ✓ Compiled in 63ms

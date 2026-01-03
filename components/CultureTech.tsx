@@ -48,7 +48,7 @@ const CultureTech = () => {
               </span>
             </h2>
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              NEO-BENIN n'est pas seulement une agence de voyage. C'est une passerelle temporelle. 
+              BENIN-TRAVEL n'est pas seulement une agence de voyage. C'est une passerelle temporelle. 
               Nous préservons l'authenticité de nos traditions (Masques Guélédé, Zangbeto) tout en 
               vous offrant le confort et la sécurité de la technologie de pointe.
             </p>

@@ -1590,7 +1590,7 @@ const Footer = ()=>{
                             children: [
                                 "© ",
                                 new Date().getFullYear(),
-                                " NEO-BENIN. All rights reserved."
+                                " BENIN-TRAVEL. All rights reserved."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.tsx",
