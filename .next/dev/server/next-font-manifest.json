@@ -1,6 +1,34 @@
 {
   "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
+    ],
+    "[project]/app/explore/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
+    ],
+    "[project]/app/login/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
+    ],
     "[project]/app/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
+    ],
+    "[project]/app/planner/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
+    ],
+    "[project]/app/profile/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
+    ],
+    "[project]/app/pros/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
+    ],
+    "[project]/app/signup/page": [
       "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
       "static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2"
     ]

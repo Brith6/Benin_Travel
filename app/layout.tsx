@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Orbitron, Montserrat } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { TripProvider } from "@/context/TripContext";
+import { AuthProvider } from "@/context/AuthContext";
 
 const orbitron = Orbitron({
   variable: "--font-orbitron",
@@ -23,11 +27,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="dark">
+    <html lang="fr" className="dark scroll-smooth">
       <body
-        className={`${orbitron.variable} ${montserrat.variable} antialiased bg-neo-black text-white font-sans selection:bg-neo-green selection:text-neo-black`}
+        className={`${orbitron.variable} ${montserrat.variable} antialiased bg-[#050505] text-white font-sans selection:bg-[#00FF94] selection:text-black`}
       >
-        {children}
+        <AuthProvider>
+          <TripProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </TripProvider>
+        </AuthProvider>
       </body>
     </html>
   );

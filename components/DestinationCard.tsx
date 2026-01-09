@@ -40,6 +40,7 @@ const DestinationCard = ({ destination, index }: { destination: DestinationProps
           alt={destination.title}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-40"
+          unoptimized
         />
         <div className="absolute inset-0 bg-gradient-to-t from-neo-black via-neo-black/80 to-transparent"></div>
       </div>

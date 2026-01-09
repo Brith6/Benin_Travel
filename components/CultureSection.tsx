@@ -45,6 +45,7 @@ const CultureSection = () => {
                   alt={card.title}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-30"
+                  unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-neo-black/80 to-neo-black"></div>
               </div>

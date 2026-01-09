@@ -1,18 +1,79 @@
-[00:00:01.467] Server  LOG     ✓ Ready in 1138ms
-[00:00:01.485] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/#culture. Falling back to browser navigation. {}
-[00:00:04.587] Server  LOG     ○ Compiling / ...
-[00:00:11.424] Browser WARN    Image with src "https://images.unsplash.com/photo-1608114759160-ad0b1bac35b2?q=80&w=1000&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:00.968] Server  LOG     ✓ Ready in 759ms
+[00:00:02.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.088] Browser WARN    Image with src "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:03.332] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1590426573887-2abe8da17ba4?auto=format&fit=crop&w=800&q=80" 404
+[00:00:03.343] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80" 404
+[00:00:08.059] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:13.198] Browser LOG     Closing modal
+[00:00:15.696] Browser LOG     Closing modal
+[00:00:47.867] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1590426573887-2abe8da17ba4?auto=format&fit=crop&w=800&q=80" 404
+[00:00:47.869] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80" 404
+[00:01:05.281] Browser LOG     Closing modal
+[00:03:51.764] Server  LOG     ✓ Compiled in 69ms
+[00:04:29.015] Server  LOG     ✓ Compiled in 171ms
+[00:07:09.105] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80" 404
+[00:07:09.578] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1590426573887-2abe8da17ba4?auto=format&fit=crop&w=800&q=80" 404
+[00:07:12.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:12.682] Browser WARN    Image with src "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=800&q=80" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:11.804] Browser WARN    Image with src "https://images.unsplash.com/photo-1759217801409-f95619d6c1e2?q=80&w=1000&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:18.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:22.600] Browser WARN    Image with src "https://images.unsplash.com/photo-1583775363006-3804e2131a2d?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:22.600] Browser WARN    Image with src "https://images.unsplash.com/photo-1586900942326-e2e8f7b7b793?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:22.600] Browser WARN    Image with src "https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:22.955] Browser WARN    Image with src "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:23.175] Browser WARN    Image with src "https://images.unsplash.com/photo-1719169395513-c48ad5d43cb0?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.366] Browser WARN    Image with src "https://images.unsplash.com/photo-1608114759160-ad0b1bac35b2?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.366] Browser WARN    Image with src "https://images.unsplash.com/photo-1759217801409-f95619d6c1e2?q=80&w=1000&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:13.070] Server  LOG     ✓ Compiled in 89ms
-[00:32:33.088] Server  LOG     ✓ Compiled in 75ms
-[00:32:35.192] Server  LOG     ✓ Compiled in 63ms
+[00:07:12.682] Browser WARN    Image with src "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:12.696] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1590426573887-2abe8da17ba4?auto=format&fit=crop&w=800&q=80" 404
+[00:07:12.700] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80" 404
+[00:07:14.213] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:18.950] Browser LOG     Closing modal
+[00:10:48.083] Server  LOG     ✓ Compiled in 26ms
+[00:10:54.513] Server  LOG     ✓ Compiled in 26ms
+[00:11:00.672] Server  LOG     ✓ Compiled in 26ms
+[00:17:39.106] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./data/db_master.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:17:39.114] Server  LOG     ✓ Compiled in 34ms
+[00:17:40.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:49.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:51.455] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:52.778] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:21:43.066] Browser LOG     Closing modal
+[00:21:45.898] Browser LOG     Closing modal
+[00:21:54.360] Browser LOG     Closing modal
+[00:41:13.774] Server  LOG     ✓ Compiled in 39ms
+[00:41:13.788] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:41:15.095] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:30.325] Server  LOG     ✓ Compiled in 108ms
+[00:41:30.391] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:41:31.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:31.507] Server  LOG     ✓ Compiled in 113ms
+[00:41:47.814] Server  LOG     ✓ Compiled in 109ms
+[00:42:00.154] Server  LOG     ✓ Compiled in 142ms
+[00:42:06.970] Server  LOG     ✓ Compiled in 78ms
+[00:42:07.801] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:44:50.821] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:44:50.821] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./data/db_master.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:50.822] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:44:50.838] Server  LOG     ✓ Compiled in 41ms
+[00:44:52.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:52.802] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:45:08.602] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:08.684] Server  LOG     ✓ Compiled in 106ms
+[00:45:09.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:09.802] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:45:28.055] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:28.693] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:28.693] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:45:28.758] Server  LOG     ✓ Compiled in 91ms
+[00:45:29.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:29.804] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:45:46.721] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:47.382] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:47.383] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:45:47.440] Server  LOG     ✓ Compiled in 100ms
+[00:45:47.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:48.816] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:48:51.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:51.588] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:48:52.781] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:52.955] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:49:27.540] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:27.699] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'split')
+[00:52:55.622] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:55.631] Server  LOG     ✓ Compiled in 54ms
+[00:52:57.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:45.409] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:44:34.548] Browser LOG     Closing modal

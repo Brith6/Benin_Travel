@@ -66,6 +66,7 @@ const DestinationFilters = () => {
                     src={dest.image}
                     alt={dest.title}
                     fill
+                    unoptimized
                     className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-40"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-neo-black via-neo-black/80 to-transparent"></div>
