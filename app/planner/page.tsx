@@ -193,7 +193,7 @@ export default function PlannerPage() {
                  {user && (
                     <div className="hidden md:flex items-center gap-2 text-xs bg-zinc-900 px-3 py-1.5 rounded-full border border-white/10">
                         <User className="w-3 h-3 text-[#00FF94]" />
-                        <span className="text-gray-300">{user.username}</span>
+                        <span className="text-gray-300">{user.name}</span>
                     </div>
                  )}
                 <div className="flex items-center gap-2 text-sm text-gray-500 font-mono">
@@ -299,43 +299,38 @@ export default function PlannerPage() {
                     
                     <div className="bg-zinc-900/50 border border-white/10 rounded-2xl p-8 flex flex-col justify-center min-h-[300px]">
                         {!user ? (
-                            <form onSubmit={handleLogin} className="space-y-4 text-center">
+                            <div className="text-center">
                                 <div className="mx-auto w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mb-4">
                                     <LogIn className="w-6 h-6 text-gray-400" />
                                 </div>
                                 <h3 className="text-xl font-bold">Connectez-vous</h3>
-                                <p className="text-sm text-gray-500 mb-6">Pour valider votre itinéraire et le transmettre à nos agents, veuillez vous identifier.</p>
+                                <p className="text-sm text-gray-500 mb-6 max-w-xs mx-auto">
+                                    Pour valider votre itinéraire et le transmettre à nos agents, veuillez vous identifier.
+                                </p>
                                 
-                                <input 
-                                    type="text" 
-                                    placeholder="Votre nom d'utilisateur"
-                                    value={loginUsername}
-                                    onChange={(e) => setLoginUsername(e.target.value)}
-                                    className="w-full bg-black border border-zinc-700 rounded-lg p-3 text-white focus:border-[#00FF94] outline-none text-center"
-                                />
                                 <button 
-                                    type="submit"
-                                    disabled={!loginUsername.trim()}
-                                    className="w-full bg-white text-black font-bold py-3 rounded-lg hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                                    onClick={() => router.push('/login?redirect=/planner')}
+                                    className="px-8 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition-colors shadow-lg"
                                 >
-                                    Accéder au Booking
+                                    Se connecter / S'inscrire
                                 </button>
-                            </form>
+                            </div>
                         ) : (
                             <div className="text-center space-y-6">
                                 <div className="mx-auto w-16 h-16 bg-[#00FF94]/20 rounded-full flex items-center justify-center border border-[#00FF94]">
                                     <Check className="w-8 h-8 text-[#00FF94]" />
                                 </div>
                                 <div>
-                                    <h3 className="text-xl font-bold mb-1">Tout est prêt, {user.username} !</h3>
+                                    <h3 className="text-xl font-bold mb-1">Tout est prêt, {user.name} !</h3>
                                     <p className="text-sm text-gray-500">Votre itinéraire est complet.</p>
                                 </div>
                                 <button 
                                     onClick={handleValidate}
-                                    className="w-full bg-[#00FF94] text-black font-bold py-4 rounded-xl hover:bg-[#00cc76] transition-all shadow-[0_0_20px_#00FF94]/20 flex items-center justify-center gap-2"
+                                    disabled={loading}
+                                    className="w-full bg-[#00FF94] text-black font-bold py-4 rounded-xl hover:bg-[#00cc76] transition-all shadow-[0_0_20px_#00FF94]/20 flex items-center justify-center gap-2 disabled:opacity-70"
                                 >
-                                    <Send className="w-4 h-4" />
-                                    ENVOYER LA DEMANDE
+                                    {loading ? <Loader2 className="animate-spin w-5 h-5" /> : <Send className="w-4 h-4" />}
+                                    {loading ? 'CONFIRMATION EN COURS...' : 'ENVOYER LA DEMANDE'}
                                 </button>
                                 <p className="text-[10px] text-zinc-600">En cliquant, vous acceptez nos CGV 2077.</p>
                             </div>

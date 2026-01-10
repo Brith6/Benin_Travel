@@ -3,7 +3,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, CheckCircle, Mail, Printer, Share2 } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
-import { formatDate } from '@/constants'; // Assuming this exists or I'll just use native Date
 
 interface BookingConfirmationModalProps {
   isOpen: boolean;
