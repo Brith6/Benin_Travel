@@ -375,12 +375,12 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 className: "w-5 h-5 text-black"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 45,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 44,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -390,7 +390,7 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                     children: "Confirmation de Réservation"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 48,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -398,7 +398,7 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                     children: "De: no-reply@benin-travel.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 49,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -409,19 +409,19 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 50,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                            lineNumber: 48,
+                                            lineNumber: 47,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 43,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -431,23 +431,23 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                         className: "w-5 h-5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 54,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 53,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BookingConfirmationModal.tsx",
-                            lineNumber: 43,
+                            lineNumber: 42,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                        lineNumber: 42,
+                        lineNumber: 41,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -463,14 +463,14 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 children: user?.name || 'Voyageur'
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 63,
+                                                lineNumber: 62,
                                                 columnNumber: 43
                                             }, this),
                                             ","
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -478,13 +478,13 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                         children: "Votre réservation a été confirmée avec succès. Préparez vos valises, le Bénin vous attend. Voici le récapitulatif de votre commande :"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                lineNumber: 62,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -497,7 +497,7 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 children: bookingDetails.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 72,
+                                                lineNumber: 71,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -507,13 +507,13 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 72,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, this),
                                     bookingDetails.items && bookingDetails.items.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -522,12 +522,12 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 children: item
                                             }, idx, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 79,
+                                                lineNumber: 78,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 76,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -537,7 +537,7 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 children: "RÉFÉRENCE"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 84,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -545,13 +545,13 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 children: bookingDetails.reference
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 86,
+                                                lineNumber: 85,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 83,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -561,26 +561,26 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 children: "DATE"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 88,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: bookingDetails.date.toLocaleDateString()
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 89,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                lineNumber: 70,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -590,7 +590,7 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                         className: "w-5 h-5 text-[#00cc76] shrink-0 mt-0.5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 94,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -598,13 +598,13 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                         children: "Un guide vous contactera sous 24h via WhatsApp au numéro associé à votre compte pour finaliser la logistique."
                                     }, void 0, false, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                lineNumber: 94,
+                                lineNumber: 93,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -617,14 +617,14 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 102,
                                                 columnNumber: 19
                                             }, this),
                                             " IMPRIMER"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 101,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -634,49 +634,49 @@ function BookingConfirmationModal({ isOpen, onClose, bookingDetails }) {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 105,
                                                 columnNumber: 19
                                             }, this),
                                             " PARTAGER"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 104,
                                         columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                                lineNumber: 101,
+                                lineNumber: 100,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                        lineNumber: 61,
+                        lineNumber: 60,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "h-2 bg-[repeating-linear-gradient(45deg,#00FF94,#00FF94_10px,#000_10px,#000_20px)]"
                     }, void 0, false, {
                         fileName: "[project]/components/BookingConfirmationModal.tsx",
-                        lineNumber: 111,
+                        lineNumber: 110,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/BookingConfirmationModal.tsx",
-                lineNumber: 34,
+                lineNumber: 33,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/BookingConfirmationModal.tsx",
-            lineNumber: 27,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/BookingConfirmationModal.tsx",
-        lineNumber: 26,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }
@@ -707,6 +707,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$log$2d$in$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LogIn$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/log-in.js [app-ssr] (ecmascript) <export default as LogIn>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/user.js [app-ssr] (ecmascript) <export default as User>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/info.js [app-ssr] (ecmascript) <export default as Info>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-ssr] (ecmascript) <export default as Loader2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PlaceDetailsModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/PlaceDetailsModal.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$BookingConfirmationModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/BookingConfirmationModal.tsx [app-ssr] (ecmascript)");
@@ -1103,7 +1104,7 @@ function PlannerPage() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-gray-300",
-                                                        children: user.username
+                                                        children: user.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/planner/page.tsx",
                                                         lineNumber: 196,
@@ -1373,9 +1374,8 @@ function PlannerPage() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "bg-zinc-900/50 border border-white/10 rounded-2xl p-8 flex flex-col justify-center min-h-[300px]",
-                                                    children: !user ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                                                        onSubmit: handleLogin,
-                                                        className: "space-y-4 text-center",
+                                                    children: !user ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "text-center",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "mx-auto w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mb-4",
@@ -1400,32 +1400,20 @@ function PlannerPage() {
                                                                 columnNumber: 33
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-sm text-gray-500 mb-6",
+                                                                className: "text-sm text-gray-500 mb-6 max-w-xs mx-auto",
                                                                 children: "Pour valider votre itinéraire et le transmettre à nos agents, veuillez vous identifier."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/planner/page.tsx",
                                                                 lineNumber: 307,
                                                                 columnNumber: 33
                                                             }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                                type: "text",
-                                                                placeholder: "Votre nom d'utilisateur",
-                                                                value: loginUsername,
-                                                                onChange: (e)=>setLoginUsername(e.target.value),
-                                                                className: "w-full bg-black border border-zinc-700 rounded-lg p-3 text-white focus:border-[#00FF94] outline-none text-center"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/planner/page.tsx",
-                                                                lineNumber: 309,
-                                                                columnNumber: 33
-                                                            }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                                type: "submit",
-                                                                disabled: !loginUsername.trim(),
-                                                                className: "w-full bg-white text-black font-bold py-3 rounded-lg hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
-                                                                children: "Accéder au Booking"
+                                                                onClick: ()=>router.push('/login?redirect=/planner'),
+                                                                className: "px-8 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition-colors shadow-lg",
+                                                                children: "Se connecter / S'inscrire"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/planner/page.tsx",
-                                                                lineNumber: 316,
+                                                                lineNumber: 311,
                                                                 columnNumber: 33
                                                             }, this)
                                                         ]
@@ -1442,12 +1430,12 @@ function PlannerPage() {
                                                                     className: "w-8 h-8 text-[#00FF94]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/planner/page.tsx",
-                                                                    lineNumber: 327,
+                                                                    lineNumber: 321,
                                                                     columnNumber: 37
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/planner/page.tsx",
-                                                                lineNumber: 326,
+                                                                lineNumber: 320,
                                                                 columnNumber: 33
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1456,12 +1444,12 @@ function PlannerPage() {
                                                                         className: "text-xl font-bold mb-1",
                                                                         children: [
                                                                             "Tout est prêt, ",
-                                                                            user.username,
+                                                                            user.name,
                                                                             " !"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/planner/page.tsx",
-                                                                        lineNumber: 330,
+                                                                        lineNumber: 324,
                                                                         columnNumber: 37
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1469,31 +1457,38 @@ function PlannerPage() {
                                                                         children: "Votre itinéraire est complet."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/planner/page.tsx",
-                                                                        lineNumber: 331,
+                                                                        lineNumber: 325,
                                                                         columnNumber: 37
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/planner/page.tsx",
-                                                                lineNumber: 329,
+                                                                lineNumber: 323,
                                                                 columnNumber: 33
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                 onClick: handleValidate,
-                                                                className: "w-full bg-[#00FF94] text-black font-bold py-4 rounded-xl hover:bg-[#00cc76] transition-all shadow-[0_0_20px_#00FF94]/20 flex items-center justify-center gap-2",
+                                                                disabled: loading,
+                                                                className: "w-full bg-[#00FF94] text-black font-bold py-4 rounded-xl hover:bg-[#00cc76] transition-all shadow-[0_0_20px_#00FF94]/20 flex items-center justify-center gap-2 disabled:opacity-70",
                                                                 children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"], {
+                                                                    loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
+                                                                        className: "animate-spin w-5 h-5"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/planner/page.tsx",
+                                                                        lineNumber: 332,
+                                                                        columnNumber: 48
+                                                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"], {
                                                                         className: "w-4 h-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/planner/page.tsx",
-                                                                        lineNumber: 337,
-                                                                        columnNumber: 37
+                                                                        lineNumber: 332,
+                                                                        columnNumber: 95
                                                                     }, this),
-                                                                    "ENVOYER LA DEMANDE"
+                                                                    loading ? 'CONFIRMATION EN COURS...' : 'ENVOYER LA DEMANDE'
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/planner/page.tsx",
-                                                                lineNumber: 333,
+                                                                lineNumber: 327,
                                                                 columnNumber: 33
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1501,13 +1496,13 @@ function PlannerPage() {
                                                                 children: "En cliquant, vous acceptez nos CGV 2077."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/planner/page.tsx",
-                                                                lineNumber: 340,
+                                                                lineNumber: 335,
                                                                 columnNumber: 33
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/planner/page.tsx",
-                                                        lineNumber: 325,
+                                                        lineNumber: 319,
                                                         columnNumber: 29
                                                     }, this)
                                                 }, void 0, false, {
@@ -1552,14 +1547,14 @@ function PlannerPage() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/planner/page.tsx",
-                                            lineNumber: 358,
+                                            lineNumber: 353,
                                             columnNumber: 17
                                         }, this),
                                         "Retour"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/planner/page.tsx",
-                                    lineNumber: 353,
+                                    lineNumber: 348,
                                     columnNumber: 17
                                 }, this),
                                 step < 5 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1571,24 +1566,24 @@ function PlannerPage() {
                                             className: "w-4 h-4 group-hover:translate-x-1 transition-transform"
                                         }, void 0, false, {
                                             fileName: "[project]/app/planner/page.tsx",
-                                            lineNumber: 368,
+                                            lineNumber: 363,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/planner/page.tsx",
-                                    lineNumber: 363,
+                                    lineNumber: 358,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/planner/page.tsx",
-                            lineNumber: 352,
+                            lineNumber: 347,
                             columnNumber: 12
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/planner/page.tsx",
-                        lineNumber: 351,
+                        lineNumber: 346,
                         columnNumber: 9
                     }, this)
                 ]

@@ -344,6 +344,7 @@ function ExplorePage() {
     const [filterCategory, setFilterCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('ALL');
     const [filterVibe, setFilterVibe] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('ALL');
     const [filterCity, setFilterCity] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('ALL');
+    const [filterPrice, setFilterPrice] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('ALL');
     const [selectedPlace, setSelectedPlace] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const { addToTrip } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$TripContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTrip"])();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
@@ -351,7 +352,8 @@ function ExplorePage() {
         const matchCategory = filterCategory === 'ALL' || item.category === filterCategory;
         const matchVibe = filterVibe === 'ALL' || item.vibe.includes(filterVibe);
         const matchCity = filterCity === 'ALL' || item.city === filterCity;
-        return matchCategory && matchVibe && matchCity;
+        const matchPrice = filterPrice === 'ALL' || item.priceLevel === filterPrice;
+        return matchCategory && matchVibe && matchCity && matchPrice;
     });
     const categories = [
         'HOTEL',
@@ -377,6 +379,13 @@ function ExplorePage() {
         'NORD',
         'FIDJROSSE'
     ];
+    const prices = [
+        1,
+        2,
+        3,
+        4,
+        5
+    ];
     const handleAddToTrip = (place)=>{
         // Basic logic to add to trip. 
         // Since Explore is generic, we can guess the type or just redirect to Planner.
@@ -394,7 +403,7 @@ function ExplorePage() {
                 actionLabel: "Planifier ce lieu"
             }, void 0, false, {
                 fileName: "[project]/app/explore/page.tsx",
-                lineNumber: 41,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -414,27 +423,27 @@ function ExplorePage() {
                                                 children: "EXPLORE"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/explore/page.tsx",
-                                                lineNumber: 53,
+                                                lineNumber: 56,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/explore/page.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-400 max-w-lg",
-                                        children: "Le moteur de recherche intelligent du 229. Filtrez par ambiance, lieu et type d'expérience."
+                                        children: "Le moteur de recherche intelligent du 229. Filtrez par ambiance, lieu et prix."
                                     }, void 0, false, {
                                         fileName: "[project]/app/explore/page.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/explore/page.tsx",
-                                lineNumber: 51,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -450,22 +459,22 @@ function ExplorePage() {
                                                 children: "Toutes les villes"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/explore/page.tsx",
-                                                lineNumber: 66,
-                                                columnNumber: 16
+                                                lineNumber: 69,
+                                                columnNumber: 15
                                             }, this),
                                             cities.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                     value: c,
                                                     children: c
                                                 }, c, false, {
                                                     fileName: "[project]/app/explore/page.tsx",
-                                                    lineNumber: 67,
-                                                    columnNumber: 33
+                                                    lineNumber: 70,
+                                                    columnNumber: 32
                                                 }, this))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/explore/page.tsx",
-                                        lineNumber: 61,
-                                        columnNumber: 14
+                                        lineNumber: 64,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                         className: "bg-zinc-900 border border-white/10 p-3 rounded text-sm text-gray-300 focus:border-[#00FF94] outline-none",
@@ -477,33 +486,60 @@ function ExplorePage() {
                                                 children: "Toutes les vibes"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/explore/page.tsx",
-                                                lineNumber: 75,
-                                                columnNumber: 16
+                                                lineNumber: 78,
+                                                columnNumber: 15
                                             }, this),
                                             vibes.map((v)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                     value: v,
                                                     children: v
                                                 }, v, false, {
                                                     fileName: "[project]/app/explore/page.tsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 79,
+                                                    columnNumber: 31
+                                                }, this))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/explore/page.tsx",
+                                        lineNumber: 73,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                        className: "bg-zinc-900 border border-white/10 p-3 rounded text-sm text-gray-300 focus:border-[#00FF94] outline-none",
+                                        value: filterPrice,
+                                        onChange: (e)=>setFilterPrice(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value)),
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                value: "ALL",
+                                                children: "Tous les prix"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/explore/page.tsx",
+                                                lineNumber: 87,
+                                                columnNumber: 15
+                                            }, this),
+                                            prices.map((p)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                    value: p,
+                                                    children: '$'.repeat(p)
+                                                }, p, false, {
+                                                    fileName: "[project]/app/explore/page.tsx",
+                                                    lineNumber: 88,
                                                     columnNumber: 32
                                                 }, this))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/explore/page.tsx",
-                                        lineNumber: 70,
-                                        columnNumber: 14
+                                        lineNumber: 82,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/explore/page.tsx",
-                                lineNumber: 60,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/explore/page.tsx",
-                        lineNumber: 50,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -515,7 +551,7 @@ function ExplorePage() {
                                 children: "TOUT"
                             }, void 0, false, {
                                 fileName: "[project]/app/explore/page.tsx",
-                                lineNumber: 83,
+                                lineNumber: 95,
                                 columnNumber: 11
                             }, this),
                             categories.map((cat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -524,13 +560,13 @@ function ExplorePage() {
                                     children: cat
                                 }, cat, false, {
                                     fileName: "[project]/app/explore/page.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/explore/page.tsx",
-                        lineNumber: 82,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -565,11 +601,10 @@ function ExplorePage() {
                                                     src: item.image,
                                                     alt: item.name,
                                                     fill: true,
-                                                    className: "object-cover group-hover:scale-110 transition-transform duration-700",
-                                                    unoptimized: true
+                                                    className: "object-cover group-hover:scale-110 transition-transform duration-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/explore/page.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 130,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -577,13 +612,13 @@ function ExplorePage() {
                                                     children: item.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/explore/page.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 136,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/explore/page.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 129,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -596,21 +631,21 @@ function ExplorePage() {
                                                         children: item.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/explore/page.tsx",
-                                                        lineNumber: 132,
-                                                        columnNumber: 22
+                                                        lineNumber: 143,
+                                                        columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/explore/page.tsx",
-                                                    lineNumber: 131,
-                                                    columnNumber: 20
+                                                    lineNumber: 142,
+                                                    columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-gray-400 mb-4 line-clamp-2 flex-1",
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/explore/page.tsx",
-                                                    lineNumber: 135,
-                                                    columnNumber: 20
+                                                    lineNumber: 146,
+                                                    columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex items-center justify-between text-xs text-gray-500 mt-auto pt-4 border-t border-white/5",
@@ -622,16 +657,16 @@ function ExplorePage() {
                                                                     className: "w-3 h-3 text-[#00FF94]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/explore/page.tsx",
-                                                                    lineNumber: 138,
-                                                                    columnNumber: 65
+                                                                    lineNumber: 149,
+                                                                    columnNumber: 63
                                                                 }, this),
                                                                 " ",
                                                                 item.city
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/explore/page.tsx",
-                                                            lineNumber: 138,
-                                                            columnNumber: 23
+                                                            lineNumber: 149,
+                                                            columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex items-center gap-2",
@@ -640,40 +675,40 @@ function ExplorePage() {
                                                                 children: '$'.repeat(item.priceLevel)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/explore/page.tsx",
-                                                                lineNumber: 140,
-                                                                columnNumber: 26
+                                                                lineNumber: 151,
+                                                                columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/explore/page.tsx",
-                                                            lineNumber: 139,
-                                                            columnNumber: 23
+                                                            lineNumber: 150,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/explore/page.tsx",
-                                                    lineNumber: 137,
-                                                    columnNumber: 20
+                                                    lineNumber: 148,
+                                                    columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/explore/page.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 141,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, item.id, true, {
                                     fileName: "[project]/app/explore/page.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 119,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/explore/page.tsx",
-                            lineNumber: 105,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/explore/page.tsx",
-                        lineNumber: 101,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this),
                     filteredItems.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -684,7 +719,7 @@ function ExplorePage() {
                                 children: "Aucune expérience ne correspond à ces critères."
                             }, void 0, false, {
                                 fileName: "[project]/app/explore/page.tsx",
-                                lineNumber: 151,
+                                lineNumber: 162,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -692,34 +727,35 @@ function ExplorePage() {
                                     setFilterCategory('ALL');
                                     setFilterVibe('ALL');
                                     setFilterCity('ALL');
+                                    setFilterPrice('ALL');
                                 },
                                 className: "mt-4 text-[#00FF94] hover:underline",
                                 children: "Réinitialiser les filtres"
                             }, void 0, false, {
                                 fileName: "[project]/app/explore/page.tsx",
-                                lineNumber: 152,
+                                lineNumber: 163,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/explore/page.tsx",
-                        lineNumber: 150,
+                        lineNumber: 161,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/explore/page.tsx",
-                lineNumber: 49,
+                lineNumber: 52,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/explore/page.tsx",
-        lineNumber: 40,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }
-_s(ExplorePage, "p86USNxoTrya0Rlcbfpj3hwQ5ig=", false, function() {
+_s(ExplorePage, "NlojjoUb+C90qceXrTHp2YBAFGk=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$TripContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTrip"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]

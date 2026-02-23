@@ -153,7 +153,7 @@ self.__SERVER_FILES_MANIFEST={
       "isExperimentalCompile": false
     }
   },
-  "appDir": "/home/brith/Epitech/Benin_Travel",
+  "appDir": "/home/kenzoobryan/Benin_Travel",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

@@ -35,25 +35,25 @@ const regions = [
         id: 'cotonou',
         name: 'Cotonou',
         description: 'La métropole vibrante, entre océan et lagune.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Sofitel_benin.jpg'
+        image: 'https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 'abomey',
         name: 'Abomey',
         description: 'Cité royale, terre des Amazones et du patrimoine.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/1/12/Palais_royaux_d%27Abomey.jpg'
+        image: 'https://images.unsplash.com/photo-1580828369619-142c1106e57d?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 'pendjari',
         name: 'Pendjari',
         description: 'Sauvagerie pure, le royaume des grands fauves.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lion_de_l%27atlas_au_parc_zoologique_de_paris.jpg/1280px-Lion_de_l%27atlas_au_parc_zoologique_de_paris.jpg'
+        image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 'ouidah',
         name: 'Ouidah',
         description: 'Berceau du Vodoun et porte du non-retour.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Porte_du_non-retour_au_Benin.jpg'
+        image: 'https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=800&q=80'
     }
 ];
 const HOTELS = [
@@ -62,7 +62,7 @@ const HOTELS = [
         name: 'Ecolodge Pendjari',
         price: 85000,
         rating: 4.8,
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lion_de_l%27atlas_au_parc_zoologique_de_paris.jpg/1280px-Lion_de_l%27atlas_au_parc_zoologique_de_paris.jpg',
+        image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
         description: 'Une nuit sous les étoiles, bercé par le rugissement des lions.',
         location: 'pendjari'
     },
@@ -71,7 +71,7 @@ const HOTELS = [
         name: 'Tata Somba Luxury',
         price: 120000,
         rating: 5.0,
-        image: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Tata_tamberma.jpg',
+        image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80',
         description: 'Architecture traditionnelle Tata, confort ultra-moderne.',
         location: 'abomey'
     },
@@ -80,7 +80,7 @@ const HOTELS = [
         name: 'Ganvié Water Resort',
         price: 95000,
         rating: 4.7,
-        image: 'https://upload.wikimedia.org/wikipedia/commons/6/66/Ganvi%C3%A9-Bateaux_de_tourisme_%281%29.jpg',
+        image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80',
         description: 'Bungalows sur pilotis avec fond de verre pour voir la lagune.',
         location: 'cotonou'
     },
@@ -89,7 +89,7 @@ const HOTELS = [
         name: 'Ouidah Python Suites',
         price: 65000,
         rating: 4.5,
-        image: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Porte_du_non-retour_au_Benin.jpg',
+        image: 'https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=800&q=80',
         description: 'Le luxe mystique au milieu de la forêt sacrée.',
         location: 'ouidah'
     },
@@ -98,7 +98,7 @@ const HOTELS = [
         name: 'Nocibé Atlantic Hotel',
         price: 150000,
         rating: 4.9,
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cotonou_Plage.jpg/1024px-Cotonou_Plage.jpg',
+        image: 'https://images.unsplash.com/photo-1590426573887-2abe8da17ba4?auto=format&fit=crop&w=800&q=80',
         description: 'Vue imprenable sur l\'océan Atlantique, service 5 étoiles.',
         location: 'cotonou'
     }

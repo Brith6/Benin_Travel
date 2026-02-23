@@ -19,7 +19,7 @@ export default function Home() {
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-br from-black via-black/80 to-[#00FF94]/10" />
-          <div className="absolute inset-0 bg-[url('/noise.png')] opacity-5 mix-blend-overlay" />
+          <div className="absolute inset-0 bg-[url('/noise.svg')] opacity-5 mix-blend-overlay" />
         </div>
 
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto space-y-8">
