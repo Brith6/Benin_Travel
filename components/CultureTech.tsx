@@ -88,7 +88,7 @@ const CultureTech = () => {
             {/* Main Image - Zangbeto or Mask */}
             <div className="absolute top-0 right-0 w-4/5 h-4/5 rounded-2xl overflow-hidden border-2 border-neo-gold/30 z-10">
               <Image 
-                src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Zangbeto.jpg"
+                src="https://images.unsplash.com/photo-1590426573887-2abe8da17ba4?auto=format&fit=crop&w=800&q=80"
                 alt="Culture Traditionnelle"
                 fill
                 className="object-cover"
@@ -100,7 +100,7 @@ const CultureTech = () => {
             {/* Secondary Image - Tech/Modern */}
             <div className="absolute bottom-0 left-0 w-3/5 h-3/5 rounded-2xl overflow-hidden border-2 border-neo-cyan/30 z-20 shadow-2xl">
               <Image 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Echelle_de_probabilit%C3%A9_du_F%C3%A2.jpg/640px-Echelle_de_probabilit%C3%A9_du_F%C3%A2.jpg"
+                src="https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80"
                 alt="Technologie Moderne"
                 fill
                 className="object-cover"

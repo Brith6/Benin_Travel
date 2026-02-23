@@ -5,7 +5,7 @@ export const destinations = [
     subtitle: "La Venise Flottante",
     category: "NATURE",
     description: "Une cité lacustre millénaire où la vie se déroule au fil de l'eau. Découvrez l'architecture unique sur pilotis.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/66/Ganvi%C3%A9-Bateaux_de_tourisme_%281%29.jpg",
+    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
     color: "text-neo-cyan border-neo-cyan"
   },
   {
@@ -14,7 +14,7 @@ export const destinations = [
     subtitle: "La Porte du Non-Retour",
     category: "VODOUN",
     description: "Un lieu de mémoire poignant face à l'océan, marquant l'histoire de la traite transatlantique.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Porte_du_non-retour_au_Benin.jpg",
+    image: "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=800&q=80",
     color: "text-neo-gold border-neo-gold"
   },
   {
@@ -23,7 +23,7 @@ export const destinations = [
     subtitle: "Cité des Rois et des Amazones",
     category: "HISTOIRE",
     description: "Plongez dans l'histoire glorieuse du Royaume de Dahomey et de ses légendaires Amazones.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/12/Palais_royaux_d%27Abomey.jpg",
+    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
     color: "text-neo-gold border-neo-gold"
   },
   {
@@ -32,7 +32,7 @@ export const destinations = [
     subtitle: "Sanctuaire de la Biosphère",
     category: "NATURE",
     description: "L'une des dernières grandes réserves de faune d'Afrique de l'Ouest. Lions, éléphants et nature brute.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lion_de_l%27atlas_au_parc_zoologique_de_paris.jpg/1280px-Lion_de_l%27atlas_au_parc_zoologique_de_paris.jpg",
+    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80",
     color: "text-neo-green border-neo-green"
   }
 ];
@@ -43,7 +43,7 @@ export const cultureCards = [
     title: "Le Premier Code Binaire",
     subtitle: "Le Fa / Algorithme",
     description: "Le système divinatoire du Fa : un algorithme binaire ancestral, précurseur de l'informatique moderne.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Echelle_de_probabilit%C3%A9_du_F%C3%A2.jpg/640px-Echelle_de_probabilit%C3%A9_du_F%C3%A2.jpg", // Cowrie shells / Divination
+    image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80", // Cowrie shells / Divination
     color: "text-neo-cyan"
   },
   {
@@ -51,7 +51,7 @@ export const cultureCards = [
     title: "Gelede",
     subtitle: "Masques Sacrés",
     description: "Cérémonie classée au patrimoine immatériel de l'UNESCO, célébrant le pouvoir des mères.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Zangbeto.jpg",
+    image: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=800&q=80",
     color: "text-neo-gold"
   }, 
   {
@@ -59,7 +59,7 @@ export const cultureCards = [
     title: "Tata Somba",
     subtitle: "Architecture de Terre",
     description: "Châteaux forts de terre au nord, symboles de résistance et d'ingénierie bioclimatique.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Tata_tamberma.jpg",
+    image: "https://images.unsplash.com/photo-1590426573887-2abe8da17ba4?auto=format&fit=crop&w=800&q=80",
     color: "text-neo-green"
   }
 ];

@@ -8,7 +8,7 @@ const Hero = () => {
     <section id="hero" className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-neo-black">
       {/* Background Elements */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/8/85/Sofitel_benin.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-neo-black via-transparent to-neo-black"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-neo-black via-transparent to-neo-black"></div>
         

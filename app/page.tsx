@@ -12,7 +12,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/8/85/Sofitel_benin.jpg"
+            src="https://images.unsplash.com/photo-1580828369619-142c1106e57d?auto=format&fit=crop&w=800&q=80"
             alt="Benin Future"
             fill
             className="object-cover opacity-50"
